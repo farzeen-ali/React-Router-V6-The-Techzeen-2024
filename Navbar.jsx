@@ -12,6 +12,7 @@ const Navbar = () => {
         <li><NavLink className='nav-link' style={({isActive}) => {return {backgroundColor: isActive ? 'aqua' : 'yellow'}}} to="/">Home</NavLink></li>
         <li><NavLink className='nav-link' style={({isActive}) => {return {backgroundColor: isActive ? 'aqua' : 'yellow'}}} to="/about">About</NavLink></li>
         <li><NavLink className='nav-link' style={({isActive}) => {return {backgroundColor: isActive ? 'aqua' : 'yellow'}}} to="/contact">Contact</NavLink></li>
+        <li><NavLink className='nav-link' to="/login">Login</NavLink></li>
      </ul> 
     </>
   );
